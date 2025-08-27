@@ -1,0 +1,18 @@
+./venv
+venv
+# MacOS
+.DS_Store
+
+# Node
+node_modules/
+package-lock.json
+
+# Archivos de backend que no subir
+backend/*.pt
+backend/media/
+backend/*.png
+backend/*.csv
+
+# Archivos temporales y logs
+*.log
+*.tmp
